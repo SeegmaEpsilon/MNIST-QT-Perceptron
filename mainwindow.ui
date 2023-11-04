@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>919</width>
+    <height>589</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="0" column="6">
+       <widget class="QProgressBar" name="progressBar_digit_6">
+        <property name="value">
+         <number>0</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QProgressBar" name="progressBar_digit_0">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="value">
+         <number>0</number>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="invertedAppearance">
+         <bool>false</bool>
+        </property>
+        <property name="textDirection">
+         <enum>QProgressBar::BottomToTop</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="7">
+       <widget class="QProgressBar" name="progressBar_digit_7">
+        <property name="value">
+         <number>0</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="8">
+       <widget class="QProgressBar" name="progressBar_digit_8">
+        <property name="value">
+         <number>0</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QProgressBar" name="progressBar_digit_4">
+        <property name="value">
+         <number>0</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QProgressBar" name="progressBar_digit_1">
+        <property name="value">
+         <number>0</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="9">
+       <widget class="QProgressBar" name="progressBar_digit_9">
+        <property name="value">
+         <number>0</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="5">
+       <widget class="QProgressBar" name="progressBar_digit_5">
+        <property name="value">
+         <number>0</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QProgressBar" name="progressBar_digit_2">
+        <property name="value">
+         <number>0</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QProgressBar" name="progressBar_digit_3">
+        <property name="value">
+         <number>0</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="label_6">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>1</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLabel" name="label_7">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>2</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLabel" name="label_8">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>3</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QLabel" name="label_9">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>4</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="5">
+       <widget class="QLabel" name="label_10">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>5</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="6">
+       <widget class="QLabel" name="label_11">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>6</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="7">
+       <widget class="QLabel" name="label_12">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>7</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="8">
+       <widget class="QLabel" name="label_13">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>8</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="9">
+       <widget class="QLabel" name="label_14">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>9</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0" colspan="2">
+         <widget class="QPushButton" name="pushButton_clear">
+          <property name="text">
+           <string>Очистить</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_6">
+      <item>
+       <widget class="QLabel" name="label_mainDigit">
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+          <kerning>true</kerning>
+         </font>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="1">
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="5" column="2">
+       <widget class="QComboBox" name="comboBox_hiddenActivationFunction">
+        <item>
+         <property name="text">
+          <string>sigmoid</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>ReLU</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>LReLU</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>tanh</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="6" column="3">
+       <widget class="QLabel" name="label_target">
+        <property name="text">
+         <string>Метка</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Количество выходных нейронов</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="2">
+       <widget class="QComboBox" name="comboBox_outputActivationFunction">
+        <item>
+         <property name="text">
+          <string>sigmoid</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>ReLU</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>LReLU</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>tanh</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="7" column="3">
+       <widget class="QPushButton" name="pushButton_validate">
+        <property name="text">
+         <string>Проверить на тестовой выборке</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_15">
+        <property name="text">
+         <string>Функция активации скрытого слоя</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QPushButton" name="pushButton_learn">
+        <property name="text">
+         <string>Обучить нейросеть</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLineEdit" name="lineEdit_learningRate">
+        <property name="text">
+         <string>0.001</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Количество скрытых нейронов</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3" rowspan="6">
+       <widget class="QLabel" name="label_image">
+        <property name="text">
+         <string>Здесь будет цифра</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="2">
+       <widget class="QPushButton" name="pushButton_reset">
+        <property name="text">
+         <string>Сбросить параметры нейросети</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QLineEdit" name="lineEdit_countHidden">
+        <property name="text">
+         <string>40</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Количество эпох</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QLineEdit" name="lineEdit_countOutput">
+        <property name="text">
+         <string>10</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="label_16">
+        <property name="text">
+         <string>Функция активации выходного слоя</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_leaningRate">
+        <property name="text">
+         <string>Скорость обучения</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLineEdit" name="lineEdit_epochs">
+        <property name="text">
+         <string>10</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QLineEdit" name="lineEdit_countInput">
+        <property name="text">
+         <string>784</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Количество входных нейронов</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="1">
+     <widget class="QTextEdit" name="console"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>919</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
